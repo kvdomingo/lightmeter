@@ -731,4 +731,3 @@ void readButtons() {
   MenuButtonState = digitalRead(MenuButtonPin);
   MeteringModeButtonState = digitalRead(MeteringModeButtonPin);
 }
-
