@@ -1,15 +1,15 @@
-# lightmeter
+# Lightmeter
 A Lightmeter/Flashmeter for photographers, based on Arduino.
 
-Components:
-1. Arduino NANO v.3 https://www.banggood.com/custlink/K3Kvbdnnea
-2. BH1750 light sensor https://www.banggood.com/custlink/mKDv2Ip1dr or https://www.banggood.com/custlink/GvGvnRNN0e
-3. SSD1306 128*64 OLED SPI Display https://www.banggood.com/custlink/DDKmsdAQ6z
-4. Buttons https://www.banggood.com/custlink/m3DGAYsnnY
-5. 50x70 PCB https://www.banggood.com/custlink/KvvvnybQAP
-6. AAA battery Holder https://www.banggood.com/custlink/vK3KsynANN
+Fork of `lightmeter` by @vpominchuk
 
-Thanks @morozgrafix https://github.com/morozgrafix for creating schematic diagram for this device.
+Components:
+- Arduino UNO R3
+- BH1750FVI digital light sensor
+- SSD1306 OLED 0.96 128x64 I2C
+- Buttons
+- 50x70mm PCB
+- AAA battery holder
 
 The lightmeter based on Arduino as a main controller and BH1750 as a metering cell. Information is displayed on SSD1306 OLED display. The device is powered by 2 AAA batteries.
 
@@ -20,14 +20,12 @@ Functions list:
 * ND filter correction
 * Aperture priority
 * Shutter speed priority
-* ISO range 8 - 4 000 000
-* Aperture range 1.0 - 3251
+* ISO range 8 - 4,000,000
+* Aperture range f/1.0 - f/3251
 * Shutter speed range 1/10000 - 133 sec
 * ND Filter range ND2 - ND8192
-* Displaying amount of light in Lux.
-* Displaying exposure value, EV
+* Displaying amount of light in lux.
+* Displaying exposure value (EV)
 * Recalculating exposure pair while one of the parameter changing
 * Battery information
-* Power 2xAAA LR03 batteries
-
-Detailed information on my site: https://www.pominchuk.com/lightmeter/
+* Power 4xAAA batteries
